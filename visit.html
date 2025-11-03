@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VISIT DONSOL | Places, Activities, and Food</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="visit-page-body">
+    <header class="main-header">
+        <div class="container d-flex flex-column">
+            <div class="header-logo-section">
+                <a href="#" class="d-inline-flex align-items-center text-decoration-none text-dark">
+                    <img src="assets/donsol_seal.png" alt="Official Seal of Donsol, Sorsogon" style="height: 70px;">
+                </a>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light p-0 header-nav-section">
+                <div class="d-flex align-items-center py-2">
+                    <ul class="navbar-nav flex-row">
+                        <li class="nav-item">
+                            <a class="nav-link fw-semibold" href="index.html#about">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-semibold" href="index.html#barangay">BARANGAY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link fw-semibold active" aria-current="page" href="visit.html">VISIT DONSOL</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="flex-grow-1">
+        <section class="hero-image-container text-white visit-hero-bg"> 
+            <div class="container hero-image-content text-center">
+                <h1 class="display-3 fw-bolder mb-3">Your Guide to Donsol</h1>
+                <p class="lead mb-0">Discover the Whale Shark Capital of the World and all its natural and culinary treasures.</p>
+            </div> 
+        </section>
+
+        <section id="getting-to-donsol" class="transport-section">
+            <div class="container-fluid">
+                <div class="row g-0">
+                    <div class="col-lg-4 transport-heading-box text-justify">
+                        <h2 class="text-white">Getting to Donsol</h2>
+                        <p class="text-white-50">Donsol is 66 kilometres (41 mi) from Sorsogon City, 571 kilometres (355 mi) from Manila, and 94 kilometres (58 mi) from Legazpi.</p>
+                        <a href="https://www.google.com/maps/place/Donsol,+Sorsogon/@12.9629633,123.5642122,27605m/data=!3m2!1e3!4b1!4m6!3m5!1s0x33a13d437987f387:0x17f91cdae40b2ee1!8m2!3d12.9878056!4d123.5951925!16zL20vMDZtMDl4?entry=ttu&g_ep=EgoyMDI1MTAyOS4yIKXMDSoASAFQAw%3D%3D"
+                            target="_blank" class="btn btn-sm fw-bold btn-map"> <i class="fa-solid fa-location-dot me-2"></i> VIEW MAP
+                        </a>
+                    </div>
+                    <div class="col-lg-8 transport-cards-wrapper">
+                        <div class="row w-100 g-4 row-cols-md-2 row-cols-lg-4">
+                            <div class="col">
+                                <div class="transport-card">
+                                    <i class="fa-solid fa-plane-departure"></i>
+                                    <p class="card-text">Airplane <br> Fly to Legazpi</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="transport-card">
+                                    <i class="fa-solid fa-van-shuttle"></i>
+                                    <p class="card-text">Van (or Jeepney from Legazpi to Donsol)</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="transport-card">
+                                    <i class="fa-solid fa-bus"></i>
+                                    <p class="card-text">Bus <br> (11 to 12 hours)</p>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="transport-card">
+                                    <i class="fa-solid fa-motorcycle"></i>
+                                    <p class="card-text">Motorcycle/Tricycle <br> (Local)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="visit-donsol" class="py-5">
+            <div class="container">
+                <h2 class="h1 fw-bold text-center section-header mb-5" style="color: #1a3c5a;">Places, Activities, and Must-Try Foods</h2>
+                <div class="row g-5 mb-5">
+                    <div class="col-md-12">
+                        <h3 class="h3 fw-bold text-dark mb-4 text-center">Must-Do Activities</h3>
+                        <div class="row row-cols-1 row-cols-md-2 g-4">
+                            <div class="col">
+                                <div class="card h-100 shadow-sm activity-card">
+                                    <div id="whaleSharkCarousel" class="carousel slide carousel-activity" data-bs-interval="false">
+                                        <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#whaleSharkCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#whaleSharkCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#whaleSharkCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        </div>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="https://www.journeyera.com/wp-content/uploads/2018/04/DONSOL-WHALE-SHARK-INTERACTION-3.jpg"
+                                                    class="d-block w-100 activity-carousel-img" alt="Butanding Photo 1">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="https://visaliv.s3.ap-south-1.amazonaws.com/Donsol-Sorsogon-Whale-Shark-Watching-PH.jpg"
+                                                    class="d-block w-100 activity-carousel-img" alt="Butanding Photo 2">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-s/02/30/07/18/wishing-it-would-have.jpg?w=600&h=500&s=1"
+                                                    class="d-block w-100 activity-carousel-img" alt="Butanding Photo 3">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#whaleSharkCarousel" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#whaleSharkCarousel" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title fw-bold">Whale Shark Interaction (Butanding)</h5>
+                                        <p class="card-text text-justify">Swim alongside the gentle giants, commonly sighted from November to June. Peak season is typically February to
+                                            May. Tours are strictly regulated by Butanding Interaction Officers (BIOs).</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 shadow-sm activity-card">
+                                    <div id="fireflyCarousel" class="carousel slide carousel-activity" data-bs-interval="false">
+                                        <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#fireflyCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#fireflyCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        </div>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="https://gttp.images.tshiftcdn.com/280820/x/0/.jpg?crop=1.91%3A1&fit=crop&width=1200"
+                                                    class="d-block w-100 activity-carousel-img" alt="Firefly Photo 1">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="https://ik.imagekit.io/tvlk/xpe-asset/AyJ40ZAo1DOyPyKLZ9c3RGQHTP2oT4ZXW+QmPVVkFQiXFSv42UaHGzSmaSzQ8DO5QIbWPZuF+VkYVRk6gh-Vg4ECbfuQRQ4pHjWJ5Rmbtkk=/2001312305105/Donsol%252C%2520Sorsogon%2520Firefly%2520Expedition%2520-%2520Half-Day%2520Tour%2520from%2520Legazpi%2509-eef5c760-174c-4331-bfc7-7ae1b4838f55.jpeg?tr=q-60,c-at_max,w-1280,h-720&_src=imagekit"
+                                                    class="d-block w-100 activity-carousel-img" alt="Firefly Photo 2">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#fireflyCarousel" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#fireflyCarousel" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title fw-bold">Firefly River Watching</h5>
+                                        <p class="card-text text-justify">Go on a magical boat ride along the Donsol River at night to see thousands of glowing lights in this firefly watching tour.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 shadow-sm activity-card">
+                                    <div id="divingCarousel" class="carousel slide carousel-activity"
+                                        data-bs-interval="false">
+                                        <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#divingCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#divingCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                            <button type="button" data-bs-target="#divingCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        </div>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="https://seektheworld.com/wp-content/uploads/2015/06/G3286554.jpg"
+                                                    class="d-block w-100 activity-carousel-img" alt="Diving Photo 1">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/08/02/6b/18/bicol-dive-center-protect.jpg?w=200&h=-1&s=1"
+                                                    class="d-block w-100 activity-carousel-img" alt="Diving Photo 2">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="https://seektheworld.com/wp-content/uploads/2015/06/G3196524.jpg"
+                                                    class="d-block w-100 activity-carousel-img" alt="Diving Photo 3">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#divingCarousel" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#divingCarousel" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title fw-bold">Diving and Snorkeling</h5>
+                                        <p class="card-text text-justify">Explore the vibrant marine life, including the chance to spot Manta Rays and soft corals. Dive spots are often around Ticao Island and the famous Manta Bowl.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 shadow-sm activity-card">
+                                    <div id="ticaoCarousel" class="carousel slide carousel-activity" data-bs-interval="false">
+                                        <div class="carousel-indicators">
+                                            <button type="button" data-bs-target="#ticaoCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                            <button type="button" data-bs-target="#ticaoCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        </div>
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="https://donsolwhaleshark.net/wp-content/uploads/2016/10/Katandayagan-falls.jpg"
+                                                    class="d-block w-100 activity-carousel-img" alt="Ticao Island Photo 1">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="https://donsolwhaleshark.net/wp-content/uploads/2016/10/20140814_095030.jpg"
+                                                    class="d-block w-100 activity-carousel-img" alt="Ticao Island Photo 2">
+                                            </div>
+                                        </div>
+                                        <button class="carousel-control-prev" type="button" data-bs-target="#ticaoCarousel" data-bs-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="carousel-control-next" type="button" data-bs-target="#ticaoCarousel" data-bs-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title fw-bold">Ticao Island Excursion</h5>
+                                        <p class="card-text text-justify">Take a boat trip to Ticao Island for more remote beaches and diving opportunities.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <h3 class="h3 fw-bold text-dark mb-4 text-center">Some Places to See</h3>
+                        <div class="places-container">
+                            <div class="place-card">
+                                <img src="https://cdn.getyourguide.com/img/tour/7a8377f9f1457fb111f5566a5101583962a2e5c480f9815828fb844b5318b892.jpg/147.jpg" alt="Bay">
+                                <h3>Donsol Bay & BIC</h3>
+                                <p class="rating-text">4.2 ⭐</p>
+                                <p class="description-text">Official hub for whale shark tours.</p>
+                            </div>
+                            <div class="place-card">
+                                <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSyPHToE5Vh94ZdZQ-jYA8IsExDQp0CF3OQ9-5hi40-iCCzo8ul4EOekoJC7BzKEADmST4P8Qu6_DLA3AAswq2OfKUUsDTaVEKt0zP8txB5LK5aXwIcZnwN_z-Y-kJGotK0m0hSX=w162-h116-n-k-no-nu" alt="Public Market">
+                                <h3>Donsol Public Market</h3>
+                                <p class="rating-text">4.0 ⭐</p>
+                                <p class="description-text">Experience local life and find fresh produce.</p>
+                            </div>
+                            <div class="place-card">
+                                <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSz-wDknXDmM_7KutoolWgGj0l3AHOoONEv-8DsckvWKuiY41QX-3jwYhlppeww84f1uAykKZXaSIHX46VLaAZjSLbkpatqUC2iIajPsX-qnMqTybds6mQX79dQXLVjaGCWIq044zQ=s1360-w1360-h1020-rw" alt="Parish Church">
+                                <h3>St. Joseph the Worker Parish Church</h3>
+                                <p class="rating-text">3.7 ⭐</p>
+                                <p class="description-text">A beacon of faith in the heart of Poso Poblacion.</p>
+                            </div>
+                            <div class="place-card">
+                                <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSweVnrIaaV2VyYgzfKcyr5gi55ITbM_tGdAyeNv3lqIQ9_WajM5SHB-HrORgtIC1aFLQcwU0DnnFAZj5wnJaUo9lA6CVN2fPVneZ7yCovpBPfTF22Cc0nTorXEffVKIBEXdl0xy=s1360-w1360-h1020-rw" alt="Falls">
+                                <h3>Tuba Falls</h3>
+                                <p class="rating-text">4.2 ⭐</p>
+                                <p class="description-text">A picturesque natural attraction that requires a short hike to reach.</p>
+                            </div>
+                            <div class="place-card">
+                                <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSwkUb5rPiFPRVVV0TifG8Tu7YirjRR-t1vDhm8bwBl0ywl0VEudfngSpfSyV-Xz6jPXcJcXG63sNsvmxcGVuRU-MUxjATSalbXbcnpdoXZ9XPiGBxUETvcxeX0Nx-VwXgrITVej=s1360-w1360-h1020-rw" alt="Hanging Bridge">
+                                <h3>San Jose Hanging Bridge</h3>
+                                <p class="rating-text">4.4 ⭐</p>
+                                <p class="description-text">Scenic metallic bridge across the river.</p>
+                            </div>
+                            <div class="place-card">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmgazoomXXEcI6pvrajlaUCwKaTxlIJgXlLg&s" alt="Beach Resort">
+                                <h3>Dancalan Beach Resorts</h3>
+                                <p class="rating-text">4.6 ⭐</p>
+                                <p class="description-text">Key area for accommodation and relaxation.</p>
+                            </div>
+                            <div class="place-card">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdw0VHOT22pe4omIBhDenxRZj36ulo-Wp8Zg&s" alt="River">
+                                <h3>Donsol River</h3>
+                                <p class="rating-text">4.9 ⭐</p>
+                                <p class="description-text">Serene location for popular Firefly Watching tours.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="h3 fw-bold text-dark mb-4 text-center section-header"> Must-Try Local Foods</h3>
+                <p class="text-center mb-4">Donsol, situated in Sorsogon, offers traditional Bicolano cuisine rich in coconut milk and chili.</p>
+                <div class="row row-cols-1 g-4">
+                    <div class="col">
+                        <div class="row g-0 food-item-row">
+                            <div class="col-md-5 col-lg-4 food-item-img-container">
+                                <img src="https://homefoodie.com.ph/uploads/2016/11/Bicol-Express_017.jpg" class="food-item-img" alt="Bicol Express">
+                            </div>
+                            <div class="col-md-7 col-lg-8 food-item-text-container">
+                                <h5>Bicol Express</h5>
+                                <p>The ultimate Bicolano dish: tender pork simmered in a rich, spicy sauce made from coconut milk and chilies (sili).</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row g-0 food-item-row">
+                            <div class="col-md-5 col-lg-4 food-item-img-container">
+                                <img src="https://kusinasecrets.com/wp-content/uploads/2024/11/u3317447599_httpss.mj_.runrzJY5AdW6LQ_top_down_view_of_Authent_136cae8e-1d96-4b4b-8417-693c972281cd_2.jpg" class="food-item-img" alt="Laing">
+                            </div>
+                            <div class="col-md-7 col-lg-8 food-item-text-container">
+                                <h5>Laing</h5>
+                                <p>A creamy vegetarian favorite featuring taro leaves (gabi) slowly stewed in thick coconut cream, often spiced with chilies and shrimp paste (bagoong).</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row g-0 food-item-row">
+                            <div class="col-md-5 col-lg-4 food-item-img-container">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4z7zONspXWzBLTkb5Ig5LxVlODI4zv3bj1g&s" class="food-item-img" alt="Kinunot na Tapas/Pagi">
+                            </div>
+                            <div class="col-md-7 col-lg-8 food-item-text-container">
+                                <h5>Kinunot na Tapas/Pagi</h5>
+                                <p>A local delicacy of flaked fish (tapas) or stingray (pagi) mixed with coconut milk, moringa (malunggay) leaves, and chilies. It's often served as an appetizer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row g-0 food-item-row">
+                            <div class="col-md-5 col-lg-4 food-item-img-container">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFnQc-1zfnJ8aOBWLMdrFPnf8qXFROyZ4puQ&s" class="food-item-img" alt="Binuntong">
+                            </div>
+                            <div class="col-md-7 col-lg-8 food-item-text-container">
+                                <h5>Binuntong</h5>
+                                <p>A traditional Bicolano delicacy made from glutinous rice and coconut, wrapped in banana leaves. It can be eaten as is or with sweet additions like mangoes.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row g-0 food-item-row">
+                            <div class="col-md-5 col-lg-4 food-item-img-container">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbkuFq5egOTQkqrTNiKLq4AXVFW6sYrp8ZUA&s" class="food-item-img" alt="Timitim">
+                            </div>
+                            <div class="col-md-7 col-lg-8 food-item-text-container">
+                                <h5>Timitim</h5>
+                                <p>A sweet native delicacy, this is a steamed cake made from grated cassava and coconut milk, often topped with sweet latik (coconut curd).</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row g-0 food-item-row">
+                            <div class="col-md-5 col-lg-4 food-item-img-container">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXSa0nE3ZDyxRTxCDNUqAJQu5fEtRnR_TPDg&s" class="food-item-img" alt="Pili Nuts">
+                            </div>
+                            <div class="col-md-7 col-lg-8 food-item-text-container">
+                                <h5>Pili Nuts</h5>
+                                <p>A Sorsogon specialty. These versatile nuts are sold candied, roasted, or as key ingredients in various local pastries and pasalubong (souvenirs).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="mt-auto py-4 bg-dark text-white text-center">
+        <p class="mb-0 text-sm">2025 Municipality of Donsol, Province of Sorsogon _ Althea Jade Gomez Condes.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

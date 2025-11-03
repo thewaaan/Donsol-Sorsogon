@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DONSOL | The Whale Shark Capital of the World</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="min-vh-100">
+    <div id="home-page" class="min-vh-100 position-relative">
+        <div class="video-bg-container">
+            <video class="video-bg" autoplay loop muted 
+            poster="https://placehold.co/1920x1080/0d9488/ffffff?text=DONSOL+VIDEO">
+                <source src="assets/DONSOL.mp4" type="video/mp4">The beauty of Donsol.
+            </video>
+        </div>
+        <div class="gradient-overlay"></div>
+        <div class="main-content-overlay"></div>
+        <div class="position-relative z-2 d-flex align-items-center justify-content-center min-vh-100 p-3 p-md-5">
+            <div class="row w-100 justify-content-center align-items-center g-4">
+                <div class="col-12 col-md-6 col-lg-6 d-flex justify-content-md-end justify-content-center">
+                    <div class="content-card text-white p-4 p-md-5">
+                        <h1 class="display-4 fw-bold mb-2">DONSOL</h1>
+                        <h2 class="h5 fw-semibold mb-4">The Whale Shark Capital of the World</h2>
+                        <p class="mb-4 leading-relaxed text-justify">
+                            Visit the municipality of Donsol for a breathtaking journey into the marine wonders of Sorsogon. It features pristine waters and offers encounters with the gentle giants of the ocean.
+                        </p>
+                        <button id="explore-btn" class="explore-btn btn btn-lg rounded-pill fw-bold">EXPLORE DONSOL</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 d-flex justify-content-md-start justify-content-center">
+                    <div class="floating-seal">
+                        <div class="bg-white p-3 rounded-circle shadow-lg seal-container">
+                            <img src="assets/donsol_seal.png" alt="Official Seal of Donsol, Sorsogon" class="img-fluid rounded-circle" style="object-fit: cover; width: 100%; height: 100%;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="main-page" class="d-none min-vh-100 d-flex flex-column main-content-bg">
+        
+        <header class="main-header">
+            <div class="container d-flex flex-column">
+                <div class="header-logo-section">
+                    <a href="#" class="d-inline-flex align-items-center text-decoration-none text-dark">
+                        <img src="assets/donsol_seal.png" alt="Official Seal of Donsol, Sorsogon" style="height: 70px;">
+                    </a>
+                </div>
+                <nav class="navbar navbar-expand-lg navbar-light p-0 header-nav-section">
+                    <div class="d-flex align-items-center py-2">
+                        <button class="btn btn-home btn-sm fw-bold" onclick="showHomePage()">HOME</button>
+                        <ul class="navbar-nav flex-row">
+                            <li class="nav-item"><a class="nav-link fw-semibold" href="#about">ABOUT</a></li>
+                            <li class="nav-item"><a class="nav-link fw-semibold" href="#barangay">BARANGAY</a></li>
+                            <li class="nav-item"><a class="nav-link fw-semibold" href="visit.html">VISIT DONSOL</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main class="flex-grow-1">
+            <div class="hero-image-container">
+                <img src="assets/municipality.jpg" alt="City Hall of Donsol" class="hero-image-bg">
+                <div class="hero-image-content">
+                    <h1 class="display-4 fw-bold mb-1">MUNICIPALITY OF DONSOL</h1>
+                    <h4 class="fw-light mb-3">Province of Sorsogon</h4>
+                </div>
+            </div>
+
+            <div class="container-fluid pt-4 pb-5 sticky-about-section">
+                <div class="row w-100 g-4">
+                    <div class="col-12 col-md-5 order-md-1">
+                        <div class="sticky-media-column rounded-3 shadow-lg">
+                            <div class="sticky-video-wrapper">
+                                <video class="sticky-video-embed" autoplay loop muted>
+                                    <source src="assets/DONSOL.mp4" type="video/mp4">The beauty of Donsol
+                                </video>
+                            </div>
+                            <div class="youtube-link-container">
+                                <a href="https://youtu.be/TBlH6-wlU4I?si=THWkJwMrNVoRJHy1" target="_blank"
+                                    class="text-white text-decoration-none"><i class="fa-brands fa-youtube"></i>Watch on YouTube
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-7 order-md-2">
+                        <div id="about" class="d-grid gap-4">
+                            <div class="card shadow-lg bg-dark-blue text-white p-3 p-md-5 rounded-3">
+                                <h2 class="h3 fw-bold mb-2">Discover Donsol</h2>
+                                <h5 class="fw-light mb-0">Where the earth meets the coast.</h5>
+                            </div>
+                            <div class="mb-0">
+                                <p class="text-dark leading-relaxed">
+                                    The Municipality of Donsol, located in the province of Sorsogon, is world-renowned for being one of the best places to experience whale shark (locally known
+                                    as butanding) interactions. This vibrant coastal town combines its rich natural wonders with a warm, welcoming community. The local government is committed 
+                                    to sustainable tourism and environmental conservation, ensuring that Donsol remains a premier destination for both tourists and locals alike.
+                                </p>
+                            </div>
+                            <section class="card shadow-sm border-top border-5">
+                                <div class="card-body p-4 p-md-5">
+                                    <h2 class="card-title h2 fw-bold mb-2">Donsol: History and Background</h2>
+                                    <p class="card-text text-dark leading-relaxed">
+                                        This was a mere barrio of Quipia (now Jovellar, in Albay province) until 1668 when Donsol became an independent parish. Donsol became a pueblo civil, or town, in 1800.
+                                    </p>
+                                    <p class="card-text text-dark leading-relaxed">
+                                        The present townsite of Donsol used to be known as the ancient village or sitio of Barra, which is located near the coast. By virtue of a petition by the Donsol 
+                                        townsfolk, who were then situated in the interior, which is now known as Banuang Gurang (old town), seeking the town's transfer to sitio Barra, because it would 
+                                        be, according to them, economically beneficial, the town was transferred to its present site on July 11, 1831. The move indeed proved to be most beneficial,
+                                        with the ready availability of trading, transportation and communications in the new site, that Donsol so outstripped its former mother town Quipia that this became
+                                        its mere visita until 1877 when Quipia, too, became a separate town under Albay, and renamed Jovellar.
+                                    </p>
+                                    <p class="card-text text-dark leading-relaxed">
+                                        Donsol got its name from “donsolan”. Bikol for anvil - that heavy metal block used by blacksmiths to fashion various metal implements, such as, machetes, knives, scissors, etc. 
+                                        According to ancient lore, Donsol was then inhabited by expert blacksmiths, which is why when one was looking for some place where one could get a machete or knife, one was 
+                                        invariably directed to go to the donsolan. Or go to Donsol. But Donsol is now famous worldwide, no longer for its metalworks, but for those awesome, but gentle, creatures known 
+                                        as Butandings, or whale sharks, that converge in large numbers at the mouth of the Donsol River during certain months of the year.
+                                    </p>
+                                    <h2 class="card-title h2 fw-bold mb-2">Beyond the Butanding: Other Attractions</h2>
+                                    <p class="card-text text-dark leading-relaxed">
+                                        While the whale sharks command international attention, Donsol offers a variety of attractions and experiences that allow visitors to explore the municipality's culture and natural 
+                                        beauty by land. For those interested in local history, the old municipal hall ruins and the Spanish-era church of St. Joseph provide a glimpse into the town's colonial past and 
+                                        architectural heritage. Food enthusiasts can indulge in authentic Bikolano cuisine, which is famous for its use of coconut milk and chili. Specialties like laing (taro leaves in 
+                                        coconut cream) and Bikol Express (pork stewed in coconut milk and chilies) are readily available and offer a fiery, flavorful culinary adventure. Furthermore, the extensive coastline 
+                                        features black sand beaches that are perfect for sunset viewing or a peaceful, uncrowded walk, offering a tranquil complement to the excitement of the whale shark interaction.
+                                    </p>
+                                    <h2 class="card-title h2 fw-bold mb-2">Local Culture and Economy</h2>
+                                    <p class="card-text text-dark leading-relaxed">
+                                        The local economy of Donsol has been dramatically transformed by the rise of whale shark tourism. What was once a primarily agricultural and fishing community has now embraced 
+                                        sustainable ecotourism, providing livelihood opportunities through guiding, accommodation, and related services. The culture remains deeply rooted in Bikolano traditions, with 
+                                        a focus on hospitality and community. This commitment to maintaining a close-knit feel, despite international recognition, contributes significantly to the town's charm. 
+                                        Visitors can enjoy fresh, locally sourced seafood and experience the warmth of the Donsol community, making the  trip not just an adventure, but a genuine cultural exchange.
+                                    </p>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="barangay-image-bg">
+                <div class="container py-5">
+                    <div class="d-grid gap-4">
+                        <section id="barangay" class="pb-5">
+                            <div class="content-box mx-auto p-4 rounded-3">
+                                <h2 class="h2 fw-bold text-center mb-3">DONSOL'S 51 BARANGAYS</h2>
+                                <p class="text-center text-dark">Donsol is politically subdivided into 51 barangays. Each barangay consists of puroks and some have sitios.</p>
+                                <div class="barangay-list-container">
+                                    <div class="barangay-name-text">Alin</div>
+                                    <div class="barangay-name-text">Awaii (Poblacion)</div>
+                                    <div class="barangay-name-text">Banban</div>
+                                    <div class="barangay-name-text">Bandi</div>
+                                    <div class="barangay-name-text">Banuang Gurang</div>
+                                    <div class="barangay-name-text">Baras</div>
+                                    <div class="barangay-name-text">Bayawas</div>
+                                    <div class="barangay-name-text">Bororan Barangay 1 (Poblacion)</div>
+                                    <div class="barangay-name-text">Cabugao</div>
+                                    <div class="barangay-name-text">Central Barangay 2 (Poblacion)</div>
+                                    <div class="barangay-name-text">Cristo</div>
+                                    <div class="barangay-name-text">Dancalan</div>
+                                    <div class="barangay-name-text">De Vera</div>
+                                    <div class="barangay-name-text">Gimagaan</div>
+                                    <div class="barangay-name-text">Girawan</div>
+                                    <div class="barangay-name-text">Gogon</div>
+                                    <div class="barangay-name-text">Gura</div>
+                                    <div class="barangay-name-text">Juan Adre</div>
+                                    <div class="barangay-name-text">Lourdes</div>
+                                    <div class="barangay-name-text">Mabini</div>
+                                    <div class="barangay-name-text">Malapoc</div>
+                                    <div class="barangay-name-text">Malinao</div>
+                                    <div class="barangay-name-text">Market Site Barangay 3 (Poblacion)</div>
+                                    <div class="barangay-name-text">New Maguisa</div>
+                                    <div class="barangay-name-text">Ogod (Crossing)</div>
+                                    <div class="barangay-name-text">Old Maguisa</div>
+                                    <div class="barangay-name-text">Orange</div>
+                                    <div class="barangay-name-text">Pangpang</div>
+                                    <div class="barangay-name-text">Parina</div>
+                                    <div class="barangay-name-text">Pawala</div>
+                                    <div class="barangay-name-text">Pinamanaan</div>
+                                    <div class="barangay-name-text">Poso Pob. (Barangay 5)</div>
+                                    <div class="barangay-name-text">Punta Waling-Waling Dalisay (Poblacion)</div>
+                                    <div class="barangay-name-text">Rawis (Poblacion Brgy)</div>
+                                    <div class="barangay-name-text">San Antonio</div>
+                                    <div class="barangay-name-text">San Isidro</div>
+                                    <div class="barangay-name-text">San Jose</div>
+                                    <div class="barangay-name-text">San Rafael</div>
+                                    <div class="barangay-name-text">San Ramon</div>
+                                    <div class="barangay-name-text">San Vicente</div>
+                                    <div class="barangay-name-text">Santa Cruz (Itunggan)</div>
+                                    <div class="barangay-name-text">Sevilla</div>
+                                    <div class="barangay-name-text">Sibago</div>
+                                    <div class="barangay-name-text">Suguian</div>
+                                    <div class="barangay-name-text">Tagbac</div>
+                                    <div class="barangay-name-text">Tinanogan</div>
+                                    <div class="barangay-name-text">Tongdol</div>
+                                    <div class="barangay-name-text">Tres Marias (Poblacion Brgy)</div>
+                                    <div class="barangay-name-text">Tuba</div>
+                                    <div class="barangay-name-text">Tupas</div>
+                                    <div class="barangay-name-text">Vinisitahan</div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="mt-auto py-4 bg-dark text-white text-center">
+            <p class="mb-0 text-sm">2025 Municipality of Donsol, Province of Sorsogon _ Althea Jade Gomez Condes.</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <script>
+        const STORAGE_KEY = 'donsol_page_state';
+        const homePage = document.getElementById('home-page');
+        const mainPage = document.getElementById('main-page');
+        const exploreBtn = document.getElementById('explore-btn');
+
+        function showMainPage() {
+            homePage.classList.add('d-none');
+            mainPage.classList.remove('d-none');
+            localStorage.setItem(STORAGE_KEY, 'main');
+            window.scrollTo(0, 0);
+        }
+
+        function showHomePage() {
+            mainPage.classList.add('d-none');
+            homePage.classList.remove('d-none');
+            localStorage.setItem(STORAGE_KEY, 'home');
+            window.scrollTo(0, 0);
+        }
+
+        const storedState = localStorage.getItem(STORAGE_KEY);
+
+        if (storedState === 'main') {
+            homePage.classList.add('d-none');
+            mainPage.classList.remove('d-none');
+        } if (exploreBtn) {
+            exploreBtn.addEventListener('click', showMainPage);
+        }
+    </script>
+</body>
+
+</html>
