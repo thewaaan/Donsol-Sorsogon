@@ -3,7 +3,6 @@ html {
     scroll-padding-top: 160px;
 }
 
-/* home */
 .video-bg-container {
     position: fixed;
     top: 0;
@@ -11,7 +10,7 @@ html {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background-color: #000000;
+    background-color: rgb(0, 0, 0);
     z-index: -3;
 }
 
@@ -34,7 +33,7 @@ html {
     width: 100%;
     height: 100%;
     z-index: -2;
-    background: linear-gradient(to bottom, #00000080 0%, #00000033 30%, transparent 95%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.502) 0%, rgba(0, 0, 0, 0.2) 30%, transparent 95%);
 }
 
 .main-content-overlay {
@@ -43,30 +42,30 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #00000066;
+    background: rgba(0, 0, 0, 0.4);
     z-index: -1;
 }
 
 .content-card {
     max-width: 550px;
     width: 100%;
-    background-color: #ffffff14;
+    background-color: rgba(255, 255, 255, 0.078);
     backdrop-filter: blur(15px);
     border-radius: 1.5rem;
-    box-shadow: 0 10px 30px #00000066;
-    border: 1px solid #ffffff26;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.149);
     min-height: 250px;
 }
 
 .explore-btn {
-    box-shadow: 0 4px 6px #00000033;
-    color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255);
 }
 
 .explore-btn:hover {
     transform: scale(1.05);
-    background-color: #1a3c5a;
-    box-shadow: 0 6px 10px #0000004d;
+    background-color: rgb(26, 60, 90);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.302);
 }
 
 .floating-seal {
@@ -77,17 +76,16 @@ html {
     justify-content: center;
 }
 
-/* main header */
 .main-header {
     position: sticky;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1030;
-    background-color: #ffffff14;
+    background-color: rgba(255, 255, 255, 0.078);
     backdrop-filter: blur(15px);
-    box-shadow: 0 5px 15px #00000033;
-    border-bottom: 1px solid #ffffff1a;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.102);
 }
 
 .header-logo-section {
@@ -99,14 +97,14 @@ html {
 }
 
 .main-header .nav-link {
-    color: #000000;
+    color: rgb(0, 0, 0);
     text-shadow: none;
     padding-left: 0.75rem;
     padding-right: 0.75rem;
 }
 
 .main-header .nav-link:hover {
-    color: #1a3c5a;
+    color: rgb(26, 60, 90);
 }
 
 .header-nav-section {
@@ -117,20 +115,18 @@ html {
 }
 
 .main-header .btn-home {
-    background-color: #1a3c5a;
-    color: #ffffff;
-    border-color: #1a3c5a;
-    padding: .375rem 1.5rem;
+    background-color: rgb(26, 60, 90);
+    color: rgb(255, 255, 255);
+    border-color: rgb(26, 60, 90);
+    padding: 0.5rem 1rem;
     font-size: .875rem;
-    transition: background-color 0.3s;
-    margin-right: 1.5rem;
+    transition: background-color 0.2s ease;
 }
 
 .main-header .btn-home:hover {
-    background-color: #1a3c5a;
+    background-color: rgb(26, 60, 90);
 }
 
-/* hero part */
 .hero-image-container {
     position: relative;
     width: 100%;
@@ -139,8 +135,8 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #ffffff;
-    box-shadow: 0 4px 6px #0000004d;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.302);
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
@@ -167,7 +163,7 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #00000033;
+    background-color: rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
@@ -179,10 +175,9 @@ html {
 
 .hero-image-content h1,
 .hero-image-content h4 {
-    text-shadow: 2px 2px 4px #000000cc;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
-/* about */
 .sticky-about-section {
     display: flex;
     min-height: 200vh;
@@ -197,19 +192,19 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #1a3c5a;
+    background-color: rgb(26, 60, 90);
     border-radius: 0.3rem;
     padding: 0;
-    box-shadow: 0 5px 15px #00000033;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .bg-dark-blue {
-    background-color: #1a3c5a;
+    background-color: rgb(26, 60, 90);
 }
 
 h2.text-primary, .card-body h2,
 #barangay h2 {
-    color: #1a3c5a;
+    color: rgb(26, 60, 90);
 }
 
 .card-body p {
@@ -230,7 +225,7 @@ h2.text-primary, .card-body h2,
 
 .youtube-link-container {
     width: 100%;
-    background-color: #1a3c5a;
+    background-color: rgb(26, 60, 90);
     text-align: center;
     padding: 10px 0;
     z-index: 5;
@@ -238,17 +233,16 @@ h2.text-primary, .card-body h2,
 
 .youtube-link-container i {
     margin-right: 5px;
-    color: #ff0000;
+    color: rgb(255, 0, 0);
 }
 
-/* barangay */
 .barangay-image-bg {
     background-image: url('assets/bg.jpg');
-    background-color: #f8f9fa;
+    background-color: rgb(248, 249, 250);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    border-top: 1px solid #dee2e6;
+    border-top: 1px solid rgb(222, 226, 230);
     position: relative;
     overflow: hidden;
 }
@@ -260,7 +254,7 @@ h2.text-primary, .card-body h2,
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #00000080;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .barangay-image-bg .container {
@@ -270,9 +264,9 @@ h2.text-primary, .card-body h2,
 
 .content-box {
     max-width: 800px;
-    background-color: #ffffffb3;
+    background-color: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(8px);
-    box-shadow: 0 4px 12px #0000001a;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .barangay-list-container {
@@ -284,13 +278,13 @@ h2.text-primary, .card-body h2,
 
 .barangay-name-text {
     text-align: center;
-    background-color: #ffffff;
+    background-color: rgb(255, 255, 255);
     padding: 12px 15px;
     border-radius: 6px;
     font-size: 1em;
     font-weight: 500;
-    color: #1a3c5a;
-    box-shadow: 0 1px 3px #0000000d;
+    color: rgb(26, 60, 90);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
     height: 100%;
     display: flex;
     align-items: center;
@@ -299,13 +293,12 @@ h2.text-primary, .card-body h2,
 }
 
 .barangay-name-text:hover {
-    background-color: #1a3c5a;
-    color: #ffffff;
-    box-shadow: 0 4px 8px #0000001a;
+    background-color: rgb(26, 60, 90);
+    color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
 
-/* visit page specific body/hero background */
 body.visit-page-body {
     background-image: url('assets/bg.jpg'); 
     background-size: cover; 
@@ -319,9 +312,8 @@ body.visit-page-body {
     background-size: cover;
 }
 
-/* transport */
 .transport-section {
-    background-color: #f0f0f0;
+    background-color: rgb(240, 240, 240);
     margin: 3rem auto;
     max-width: 90%;
     border-radius: 10px;
@@ -333,8 +325,8 @@ body.visit-page-body {
 }
 
 .transport-heading-box {
-    background-color: #1a3c5a;
-    color: #ffffff;
+    background-color: rgb(26, 60, 90);
+    color: rgb(255, 255, 255);
     padding: 3rem;
     display: flex;
     flex-direction: column;
@@ -353,8 +345,8 @@ body.visit-page-body {
 }
 
 .btn-map {
-    background-color: #ffffff;
-    color: #1a3c5a;
+    background-color: rgb(255, 255, 255);
+    color: rgb(26, 60, 90);
     border: none;
     border-radius: 0.5rem;
     padding: 8px 15px;
@@ -363,8 +355,8 @@ body.visit-page-body {
 }
 
 .btn-map:hover {
-    background-color: #34628a;
-    color: #ffffff;
+    background-color: rgb(52, 98, 138);
+    color: rgb(255, 255, 255);
     transform: translateY(-1px);
 }
 
@@ -382,9 +374,9 @@ body.visit-page-body {
     justify-content: center;
     text-align: center;
     padding: 1.5rem 1rem;
-    border: 1px solid #dddddd;
+    border: 1px solid rgb(221, 221, 221);
     border-radius: 8px;
-    background-color: #ffffff;
+    background-color: rgb(255, 255, 255);
     box-shadow: none;
     height: 100%;
     transition: transform 0.2s, box-shadow 0.2s;
@@ -392,34 +384,32 @@ body.visit-page-body {
 
 .transport-card:hover {
     transform: translateY(-3px);
-    box-shadow: 0 5px 15px #00000014;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
 }
 
 .transport-card i {
     font-size: 3rem;
-    color: #1a3c5a;
+    color: rgb(26, 60, 90);
     margin-bottom: 1rem;
 }
 
 .transport-card .card-text {
     font-weight: 600;
-    color: #000000;
+    color: rgb(0, 0, 0);
     font-size: 0.9rem;
     text-align: center;
 }
 
-/* for blur bg */
 #visit-donsol {
-    background-color: #ffffff14;
+    background-color: rgba(255, 255, 255, 0.08);
     backdrop-filter: blur(10px);
-    box-shadow: 0 5px 15px #00000033;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     border-radius: 1rem;
     margin: 3rem auto;
     max-width: 90%;
     padding: 3rem;
 }
 
-/* activities */
 .activity-card {
     overflow: hidden;
     transition: transform 0.3s, box-shadow 0.3s;
@@ -427,14 +417,14 @@ body.visit-page-body {
 
 .activity-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 20px #00000026;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
 .carousel-activity {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     overflow: hidden;
-    background-color: #f8f8f8;
+    background-color: rgb(248, 248, 248);
 }
 
 .activity-carousel-img {
@@ -451,7 +441,7 @@ body.visit-page-body {
 
 .carousel-activity .carousel-control-prev-icon,
 .carousel-activity .carousel-control-next-icon {
-    background-color: #00000066;
+    background-color: rgba(0, 0, 0, 0.4);
     border-radius: 3px;
     padding: 0.6rem;
     background-size: 40%;
@@ -470,17 +460,16 @@ body.visit-page-body {
 .card-body h5 {
     font-size: 1.50rem;
     font-weight: bold;
-    color: #1a3c5a;
+    color: rgb(26, 60, 90);
     margin-bottom: 0.5rem;
 }
 
 .card-body p {
     font-size: 0.95rem;
-    color: #000000;
+    color: rgb(0, 0, 0);
     line-height: 1.5;
 }
 
-/* places */
 .places-container {
     display: flex;
     overflow-x: auto;
@@ -492,15 +481,15 @@ body.visit-page-body {
     flex: 0 0 auto;
     width: 200px;
     margin-right: 15px;
-    border: 1px solid #dddddd;
+    border: 1px solid rgb(221, 221, 221);
     border-radius: 8px;
     padding: 10px;
     text-align: left;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: #ffffff;
-    box-shadow: 0 2px 4px #0000001a;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     height: auto;
 }
 
@@ -516,33 +505,32 @@ body.visit-page-body {
     font-size: 1em;
     font-weight: bold;
     margin: 0 0 5px 0;
-    color: #1a3c5a;
+    color: rgb(26, 60, 90);
     white-space: normal;
 }
 
 .place-card .rating-text {
     font-size: 0.85em;
     margin: 0 0 3px 0;
-    color: #666666;
+    color: rgb(102, 102, 102);
     white-space: nowrap;
 }
 
 .place-card .description-text {
     font-size: 0.85em;
     margin: 0;
-    color: #000000;
+    color: rgb(0, 0, 0);
     white-space: normal;
     height: auto;
     overflow: visible;
     text-overflow: clip;
 }
 
-/* foods */
 .food-item-row {
     margin-bottom: 2rem;
     border-radius: 8px;
-    background-color: #cccccc;
-    box-shadow: 0 2px 8px #00000014;
+    background-color: rgb(204, 204, 204);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
     overflow: hidden;
 }
 
@@ -564,13 +552,13 @@ body.visit-page-body {
 .food-item-text-container h5 {
     font-size: 1.50rem;
     font-weight: bold;
-    color: #1a3c5a;
+    color: rgb(26, 60, 90);
     margin-bottom: 0.5rem;
 }
 
 .food-item-text-container p {
     font-size: 0.95rem;
-    color: #000000;
+    color: rgb(0, 0, 0);
     line-height: 1.5;
     text-align: justify;
 }

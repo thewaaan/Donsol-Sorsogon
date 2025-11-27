@@ -9,18 +9,18 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body class="visit-page-body">
-    <header class="main-header">
+    <div class="main-header">
         <div class="container d-flex flex-column">
             <div class="header-logo-section">
                 <a href="#" class="d-inline-flex align-items-center text-decoration-none text-dark">
                     <img src="assets/donsol_seal.png" alt="Official Seal of Donsol, Sorsogon" style="height: 70px;">
                 </a>
             </div>
-            <nav class="navbar navbar-expand-lg navbar-light p-0 header-nav-section">
+            <div class="navbar navbar-expand-lg navbar-light p-0 header-nav-section">
                 <div class="d-flex align-items-center py-2">
                     <ul class="navbar-nav flex-row">
                         <li class="nav-item">
@@ -34,19 +34,17 @@
                         </li>
                     </ul>
                 </div>
-            </nav>
+            </div>
         </div>
-    </header>
-
-    <main class="flex-grow-1">
-        <section class="hero-image-container text-white visit-hero-bg"> 
+    </div>
+    <div class="flex-grow-1">
+        <div class="hero-image-container text-white visit-hero-bg">
             <div class="container hero-image-content text-center">
                 <h1 class="display-3 fw-bolder mb-3">Your Guide to Donsol</h1>
                 <p class="lead mb-0">Discover the Whale Shark Capital of the World and all its natural and culinary treasures.</p>
-            </div> 
-        </section>
-
-        <section id="getting-to-donsol" class="transport-section">
+            </div>
+        </div>
+        <div id="getting-to-donsol" class="transport-section">
             <div class="container-fluid">
                 <div class="row g-0">
                     <div class="col-lg-4 transport-heading-box text-justify">
@@ -86,9 +84,8 @@
                     </div>
                 </div>
             </div>
-        </section>
-
-        <section id="visit-donsol" class="py-5">
+        </div>
+        <div id="visit-donsol" class="py-5">
             <div class="container">
                 <h2 class="h1 fw-bold text-center section-header mb-5" style="color: #1a3c5a;">Places, Activities, and Must-Try Foods</h2>
                 <div class="row g-5 mb-5">
@@ -237,7 +234,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col-md-12">
                         <h3 class="h3 fw-bold text-dark mb-4 text-center">Some Places to See</h3>
                         <div class="places-container">
@@ -286,7 +282,6 @@
                         </div>
                     </div>
                 </div>
-
                 <h3 class="h3 fw-bold text-dark mb-4 text-center section-header"> Must-Try Local Foods</h3>
                 <p class="text-center mb-4">Donsol, situated in Sorsogon, offers traditional Bicolano cuisine rich in coconut milk and chili.</p>
                 <div class="row row-cols-1 g-4">
@@ -358,12 +353,17 @@
                     </div>
                 </div>
             </div>
-        </section>
-    </main>
-
-    <footer class="mt-auto py-4 bg-dark text-white text-center">
-        <p class="mb-0 text-sm">2025 Municipality of Donsol, Province of Sorsogon _ Althea Jade Gomez Condes.</p>
-    </footer>
+        </div>
+    </div>
+    <div class="mt-auto py-4 bg-dark text-white text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <p class="mb-0 text-sm">2025 Municipality of Donsol, Province of Sorsogon _ Althea Jade Gomez Condes.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
